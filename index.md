@@ -46,10 +46,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
+<h4>This is the website for our 1-day Software Carpentry Workshop at Di­gital Hu­man­it­ies in the Nor­dic Coun­tries
+3rd Con­fer­ence 7–9 March 2018, Hel­sinki.</h4>
 
 <h2 id="general">General Information</h2>
 
