@@ -46,7 +46,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the website for our 1-day Software Carpentry Workshop at Di­gital Hu­man­it­ies in the Nor­dic Coun­tries
+<h4>This is the website for our 1-day workshop adapted from Software Carpentry at Di­gital Hu­man­it­ies in the Nor­dic Coun­tries
 3rd Con­fer­ence 7–9 March 2018, Hel­sinki.</h4>
 
 <h2 id="general">General Information</h2>
@@ -190,21 +190,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
-
-{% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
-<p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %}
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
-
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
