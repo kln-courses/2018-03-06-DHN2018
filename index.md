@@ -46,8 +46,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the website for our 1-day workshop based on Software Carpentry at Di­gital Hu­man­it­ies in the Nor­dic Coun­tries
-3rd Con­fer­ence 7–9 March 2018, Hel­sinki.</h4>
+<h4>This is the website for our 1-day workshop based on Software Carpentry at Di­gital Hu­man­it­ies in the Nor­dic Coun­tries 3rd Con­fer­ence 7–9 March 2018, Hel­sinki. For registration please write
+<a href="mailto:knielbo@sdu.dk">Kristoffer Nielbo</a> </h4>
 
 <h2 id="general">General Information</h2>
 
